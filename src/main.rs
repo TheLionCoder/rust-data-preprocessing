@@ -54,7 +54,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             record.work_year,
             record.job_title.clone(),
             record.company_location.clone(),
-            record.company_location.clone(),
         );
         if seen.insert(key) {
             unique_dataset.push(record);
